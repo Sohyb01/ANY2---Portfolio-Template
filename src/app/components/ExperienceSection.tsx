@@ -43,6 +43,15 @@ const ExperienceSection = () => {
               <p className="font-normal text-gray-600 text-base">
                 {experience.year}
               </p>
+              {experience.description.length && (
+                <div className="col-span-3 flex flex-col gap-4 text-slate-500 pb-12">
+                  {experience.description.map((point, index) => (
+                    <p className="max-w-[640px]" key={index}>
+                      {point}
+                    </p>
+                  ))}
+                </div>
+              )}
             </>
           ))}
         </div>

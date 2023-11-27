@@ -51,6 +51,7 @@ export const experienceData = [
     city: "CITY, COUNTRY",
     year: "YYYY-YYYY",
     position: "Lorem Ipsum dolor Sit Amet",
+    description: [],
   },
 ];
 
